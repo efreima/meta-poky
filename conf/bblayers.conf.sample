@@ -9,7 +9,11 @@ BBLAYERS ?= " \
   ##OEROOT##/layers/meta \
   ##OEROOT##/layers/meta-poky \
   ##OEROOT##/layers/meta-yocto-bsp \
-  ##OEROOT##/layers/meta-openembedded \
+  ##OEROOT##/layers/meta-openembedded/meta-oe \
+  ##OEROOT##/layers/meta-openembedded/meta-initramfs \
+  ##OEROOT##/layers/meta-openembedded/meta-networking \
+  ##OEROOT##/layers/meta-openembedded/meta-python \
+  ##OEROOT##/layers/meta-openembedded/meta-webserver \
   ##OEROOT##/layers/meta-raspberrypi \
   ##OEROOT##/layers/meta-qt5 \
   ##OEROOT##/layers/meta-rpi \
