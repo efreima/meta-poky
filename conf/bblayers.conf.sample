@@ -16,5 +16,4 @@ BBLAYERS ?= " \
   ##OEROOT##/layers/meta-openembedded/meta-webserver \
   ##OEROOT##/layers/meta-raspberrypi \
   ##OEROOT##/layers/meta-qt5 \
-  ##OEROOT##/layers/meta-rpi \
   "
